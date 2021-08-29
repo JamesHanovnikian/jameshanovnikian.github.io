@@ -644,10 +644,12 @@ input, select, textarea {
 		position: relative;
 	}
 
+
+
 		.image:before {
 			pointer-events: none;
-			background-image: url("images/santorini.jpg");
-			background-color: rgba(19, 21, 25, 0.5);
+			background-image: url("images/overlay.png");
+			/* background-color: rgba(19, 21, 25, 0.5); */
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -702,6 +704,15 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+			}
+
+			.article-image {
+				height: 200px; 
+				object-fit: cover; 
+			}
+
+			#profile-pic {
+				height: 325px; 
 			}
 
 		@media screen and (max-width: 736px) {
@@ -1158,7 +1169,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/bg1.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1291,15 +1302,16 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 5.75rem;
+			height: 5.75rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			
 		}
 
 			#header .logo .icon:before {
-				font-size: 2rem;
+				font-size: 1.75rem;
 			}
 
 		#header .content {
@@ -1311,14 +1323,6 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
@@ -1361,7 +1365,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 2.5rem 0 2.5rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
