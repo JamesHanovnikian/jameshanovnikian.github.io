@@ -217,7 +217,7 @@ a:hover {
   font-size: 1.2rem;
   border-radius: 50%;
   line-height: 4.0;
-  margin: 0 50px 0 0;
+  margin: 0 30px 0 0;
   box-shadow: 0 0 0 3px #88D18A;
   transition: all 500ms ease;
 }
@@ -714,14 +714,22 @@ a:hover {
   font-family: 'Nunito', sans-serif;
 
 }
-.about 
+
+
+
 .about-mf .about-img {
   margin-bottom: 2rem;
+  
 }
 
 .about-mf .col-md-6 {
   padding-left: 1.5rem; 
   padding-right: 1.5rem; 
+}
+
+.about-subtitle {
+  font-weight: 800; 
+  font-size: 22px; 
 }
 
 .about-mf .col-md-6 .lead {
@@ -776,19 +784,19 @@ a:hover {
 
 
 .hobbies img {
-  border-radius: 2%; 
+  border-radius: 3%; 
 }
 
 .hobbies .title{
   text-align: center; 
 }
-.hobbies .title h3  {
-  font-size: 35px; 
+.hobbies .title h2  {
+  font-size: 20px; 
   font-weight: 600; 
 }
 
 .hobbies .title p {
-  font-size: 16px; 
+  font-size: 14px; 
 }
 
 
@@ -798,14 +806,15 @@ a:hover {
 .hobbies .box {
   display: flex; 
   width: 100%; 
-  padding: 25px; 
+  padding-left: 70px; 
+  padding-right: 70px; 
   box-sizing: border-box; 
 }
 
 .hobbies .box p {
   padding-top: 1.5rem; 
   text-align: center;
-  font-size: 19px; 
+  font-size: 16px; 
 }
 
 .hobbies .box h2 {
@@ -966,7 +975,7 @@ a:hover {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: px;
 }
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1371,13 +1380,21 @@ a:hover {
 # Footer
 --------------------------------------------------------------*/
 footer {
+  font-size: 14px; 
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #222426;
 }
+
+footer .email {
+  font-size: 19px; 
+}
+
+
 footer .copyright {
   margin-bottom: 0.3rem;
+  font-size: 14px; 
 }
 footer .credits {
   margin-bottom: 0;
