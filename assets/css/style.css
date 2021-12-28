@@ -28,7 +28,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #0078ff;
+  color: #88D18A;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -161,7 +161,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #4e4e4e; 
   margin: 0 auto;
 }
 
@@ -178,7 +178,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: rgba(181, 171, 176, 0.4);
   width: 100px;
   bottom: -12px;
 }
@@ -204,26 +204,32 @@ a:hover {
 
 /*------/ Socials /------*/
 .socials {
-  padding: 1.5rem 0;
+  padding: 1.25rem 0;
 }
 .socials ul li {
   display: inline-block;
+  font-size: 19px;
+  
 }
 .socials .ico-circle {
-  height: 40px;
-  width: 40px;
+  height: 75px;
+  width: 75px;
   font-size: 1.2rem;
   border-radius: 50%;
-  line-height: 1.6;
-  margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  line-height: 4.0;
+  margin: 0 50px 0 0;
+  box-shadow: 0 0 0 3px #88D18A;
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #88D18A;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
+}
+
+.name {
+  font-size: 25px; 
 }
 
 /*------/ Ul resect /------*/
@@ -237,7 +243,7 @@ a:hover {
   line-height: 2;
 }
 .list-ico span {
-  color: #0078ff;
+  color: #88D18A;
   margin-right: 10px;
 }
 
@@ -250,7 +256,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #88D18A;
   display: block;
 }
 
@@ -290,7 +296,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #88D18A;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -314,7 +320,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #E1B391;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -326,7 +332,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #298eff;
+  background: #88D18A;
   color: #fff;
 }
 .back-to-top.active {
@@ -456,6 +462,8 @@ a:hover {
 /**
 * Desktop Navigation 
 */
+
+
 .navbar {
   padding: 0;
 }
@@ -466,9 +474,15 @@ a:hover {
   list-style: none;
   align-items: center;
 }
+
+
+
 .navbar li {
   position: relative;
+  text-transform: uppercase; 
 }
+
+
 .navbar > ul > li {
   white-space: nowrap;
   padding: 10px 0 10px 30px;
@@ -478,14 +492,13 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 19px;
+  font-weight: 400;
   padding: 0;
   white-space: nowrap;
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
-  text-transform: uppercase;
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -501,7 +514,7 @@ a:hover {
   left: 0;
   width: 0;
   background-color: #fff;
-  visibility: hidden;
+  /* visibility: hidden; */
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
@@ -511,51 +524,8 @@ a:hover {
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #fff;
 }
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 30px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: 0.3s;
-}
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  color: #4e4e4e;
-}
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #0078ff;
-}
-.navbar .dropdown:hover > ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-.navbar .dropdown .dropdown:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
+
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -623,7 +593,7 @@ a:hover {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: #4e4e4e; 
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #0078ff;
@@ -684,6 +654,7 @@ a:hover {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  
 }
 @media (min-width: 768px) {
   .hero .hero-title {
@@ -693,6 +664,7 @@ a:hover {
 .hero .hero-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
+  font-family: 'Roboto Mono', monospace;
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
@@ -735,13 +707,36 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about-mf .box-shadow-full {
+.about-mf  {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  padding: 1.5rem; 
+  font-family: 'Nunito', sans-serif;
+
 }
+.about 
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
+
+.about-mf .col-md-6 {
+  padding-left: 1.5rem; 
+  padding-right: 1.5rem; 
+}
+
+.about-mf .col-md-6 .lead {
+  font-size: 17px; 
+}
+
+#flex-container {
+  display: flex;
+}
+
+#flex-continer .row .col-md-6 {
+  align-items: center; 
+}
+
+
 .about-mf .about-img img {
   margin-left: 10px;
 }
@@ -769,6 +764,92 @@ a:hover {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+
+
+
+/* .hobbies img-fluid {
+  max-width: 75%; 
+  height: auto; 
+  border-radius: 10%; 
+} */
+
+
+.hobbies img {
+  border-radius: 2%; 
+}
+
+.hobbies .title{
+  text-align: center; 
+}
+.hobbies .title h3  {
+  font-size: 35px; 
+  font-weight: 600; 
+}
+
+.hobbies .title p {
+  font-size: 16px; 
+}
+
+
+.hobbies {
+  font-family: 'Nunito', sans-serif;
+}
+.hobbies .box {
+  display: flex; 
+  width: 100%; 
+  padding: 25px; 
+  box-sizing: border-box; 
+}
+
+.hobbies .box p {
+  padding-top: 1.5rem; 
+  text-align: center;
+  font-size: 19px; 
+}
+
+.hobbies .box h2 {
+  padding-bottom: 1.2rem; 
+  text-align:center; 
+}
+
+
+
+.hobbies .box .box-1 {
+  flex: 1; 
+  padding: 30px; 
+
+}
+
+
+.hobbies .box .box-2 {
+  
+  flex: 1; 
+  padding: 30px; 
+}
+
+.hobbies .box .box-3 {
+ 
+  flex: 1; 
+  padding: 30px; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .hobbies .box {
+    flex-direction: column; 
+  }
+}
+
+.highlight {
+  color: #E1B391; 
+}
+
+
+
+
+
+
 .service-box {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
@@ -1000,12 +1081,21 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+
+
+
+
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
 
 .contact-mf {
+  background-color:#ed3c0d; 
   margin-top: 4rem;
+  font-family:'Nunito', sans-serif;
+  text-align: center;
+  
 }
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
@@ -1032,7 +1122,7 @@ a:hover {
 }
 .php-email-form .loading {
   display: none;
-  background: #fff;
+
   text-align: center;
   padding: 15px;
 }
