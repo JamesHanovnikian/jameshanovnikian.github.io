@@ -151,6 +151,7 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 3px; 
 }
 
 .subtitle-a {
@@ -662,7 +663,7 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 900;
+  font-weight: 700;
   font-family:'Kanit', sans-serif; 
   font-size: 4rem;
   letter-spacing: 2px; 
