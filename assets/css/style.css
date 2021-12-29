@@ -28,7 +28,7 @@ a {
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #88D18A;
+  color: #000;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -159,8 +159,8 @@ a:hover {
 }
 
 .line-mf {
-  width: 40px;
-  height: 5px;
+  width: 75px;
+  height: 3px;
   background-color: #4e4e4e; 
   margin: 0 auto;
 }
@@ -212,19 +212,19 @@ a:hover {
   
 }
 .socials .ico-circle {
-  height: 75px;
-  width: 75px;
+  height: 40px;
+  width: 40px;
   font-size: 1.2rem;
   border-radius: 50%;
-  line-height: 4.0;
+  line-height: 2.0;
   margin: 0 30px 0 0;
-  box-shadow: 0 0 0 3px #88D18A;
+  box-shadow: 0 0 0 2px #4e4e4e;
   transition: all 500ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #88D18A;
+  background-color: #AD3A28;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  box-shadow: 0 0 0 2px #cca6a1;
   transition: all 500ms ease;
 }
 
@@ -240,11 +240,11 @@ a:hover {
 }
 
 .list-ico {
-  line-height: 2;
+  line-height: 4;
 }
 .list-ico span {
-  color: #88D18A;
-  margin-right: 10px;
+  color: #AD3A28;
+  margin-right: 5px;
 }
 
 /*------/ Ico Circle /------*/
@@ -252,11 +252,11 @@ a:hover {
   height: 100px;
   width: 100px;
   font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
+  border-radius:50%;
+  line-height: 1.45;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #88D18A;
+  box-shadow: 0 0 0 10px #AD3A28;
   display: block;
 }
 
@@ -296,7 +296,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #88D18A;
+  background-color: #000;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -320,7 +320,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #E1B391;
+  background: #4e4e4e;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -332,7 +332,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #88D18A;
+  background: #AD3A28;
   color: #fff;
 }
 .back-to-top.active {
@@ -513,7 +513,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #FFE5D9;
   /* visibility: hidden; */
   transition: all 0.3s ease-in-out 0s;
 }
@@ -522,7 +522,7 @@ a:hover {
   width: 80%;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #fff;
+  color: #FFE5D9;
 }
 
 
@@ -652,8 +652,11 @@ a:hover {
 }
 .hero .hero-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  font-weight: 900;
+  font-family:'Kanit', sans-serif; 
+  font-size: 5rem;
+  letter-spacing: 10px; 
+  text-transform: uppercase; 
   
 }
 @media (min-width: 768px) {
@@ -729,7 +732,7 @@ a:hover {
 
 .about-subtitle {
   font-weight: 800; 
-  font-size: 22px; 
+  font-size: 20px; 
 }
 
 .about-mf .col-md-6 .lead {
@@ -848,10 +851,13 @@ a:hover {
   .hobbies .box {
     flex-direction: column; 
   }
+  .hobbies .box img {
+    max-width: 100%; 
+  }
 }
 
 .highlight {
-  color: #E1B391; 
+  color: #FFE5D9; 
 }
 
 
@@ -932,9 +938,14 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  font-family: Nunito; 
 }
 .work-box:hover img {
   transform: scale(1.3);
+}
+
+#work {
+  font-family: Nunito; 
 }
 
 .work-img {
@@ -946,29 +957,34 @@ a:hover {
 }
 
 .work-content {
+  font-family: Nunito; 
   padding: 2rem 3% 1rem 4%;
 }
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: 0.8rem;
+  font-size: 1.2rem;
 }
 .work-content .w-more .w-ctegory {
   color: #0078ff;
 }
 .work-content .w-like {
-  font-size: 2.5rem;
-  color: #0078ff;
+  font-size: 4.0 rem;
+  color: #4e4e4e;
   float: right;
 }
 .work-content .w-like a {
-  color: #0078ff;
+  color: #AD3A28;
 }
+
+.work-content .w-like a:hover {
+  color: #bb9893
+} 
 .work-content .w-like .num-like {
   font-size: 0.7rem;
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /*--------------------------------------------------------------
@@ -1384,7 +1400,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #222426;
+  background: #000000;
 }
 
 footer .email {
