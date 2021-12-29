@@ -856,6 +856,10 @@ a:hover {
   padding: 30px; 
 }
 
+.hobbies .box .box-3 img {
+  
+}
+
 
 @media screen and (max-width: 768px) {
   .hobbies .box {
