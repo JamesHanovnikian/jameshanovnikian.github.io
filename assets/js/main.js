@@ -170,7 +170,7 @@
       loop: true,
       typeSpeed: 115,
       backSpeed: 75,
-      backDelay: 2750
+      backDelay: 1500
     });
   }
 

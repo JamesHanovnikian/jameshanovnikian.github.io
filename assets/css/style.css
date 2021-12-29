@@ -650,11 +650,21 @@ a:hover {
   width: 100%;
   opacity: 0.9;
 }
+
+.hero-subtitle .typed {
+  /* color: #FFE5D9; 
+  background-color: #0078ff; 
+  box-shadow:  */
+  text-shadow:  0 0 3px #AD3A28; 
+}
+
+
+
 .hero .hero-title {
   color: #fff;
   font-weight: 900;
   font-family:'Kanit', sans-serif; 
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 10px; 
   text-transform: uppercase; 
   
@@ -857,7 +867,8 @@ a:hover {
 }
 
 .highlight {
-  color: #FFE5D9; 
+  text-shadow:  0 0 5px #AD3A28; 
+  color: #FFE5D9;  
 }
 
 
