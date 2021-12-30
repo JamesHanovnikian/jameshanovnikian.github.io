@@ -220,12 +220,12 @@ a:hover {
   line-height: 2.0;
   margin: 0 30px 0 0;
   box-shadow: 0 0 0 2px #4e4e4e;
-  transition: all 500ms ease;
+  transition: all ms ease;
 }
 .socials .ico-circle:hover {
-  background-color: #AD3A28;
+  background-color: #6279B8;
   color: #fff;
-  box-shadow: 0 0 0 2px #cca6a1;
+  box-shadow: 0 0 0 2px #6279B8;
   transition: all 500ms ease;
 }
 
@@ -244,7 +244,7 @@ a:hover {
   line-height: 4;
 }
 .list-ico span {
-  color: #AD3A28;
+  color: #6279B8;
   margin-right: 5px;
 }
 
@@ -257,7 +257,7 @@ a:hover {
   line-height: 1.45;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #AD3A28;
+  box-shadow: 0 0 0 10px #6279B8;
   display: block;
 }
 
@@ -333,7 +333,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #AD3A28;
+  background: #686767;
   color: #fff;
 }
 .back-to-top.active {
@@ -427,7 +427,7 @@ a:hover {
 .btn-lg {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 2.0;
   border-radius: 0.3rem;
 }
 
@@ -514,7 +514,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #FFE5D9;
+  background-color: #fff;
   /* visibility: hidden; */
   transition: all 0.3s ease-in-out 0s;
 }
@@ -523,7 +523,7 @@ a:hover {
   width: 80%;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #FFE5D9;
+  color: #fff;
 }
 
 
@@ -641,6 +641,15 @@ a:hover {
   text-align: center;
   position: absolute;
 }
+
+.hero .hero-content .btn {
+  background-color: #6279B8
+}
+
+.hero .hero-content .btn:hover {
+  background-color: #6679af; 
+}
+
 .hero .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -656,7 +665,7 @@ a:hover {
   /* color: #FFE5D9; 
   background-color: #0078ff; 
   box-shadow:  */
-  text-shadow:  0 0 3px #AD3A28; 
+  text-shadow:  0 0 3px #6279B8; 
 }
 
 
@@ -665,9 +674,11 @@ a:hover {
   color: #fff;
   font-weight: 700;
   font-family:'Kanit', sans-serif; 
-  font-size: 4rem;
+  font-size: 1.1rem;
   letter-spacing: 2px; 
   text-transform: uppercase; 
+
+
   
 }
 @media (min-width: 768px) {
@@ -676,7 +687,6 @@ a:hover {
   }
 }
 .hero .hero-subtitle {
-  font-size: 1.5rem;
   font-weight: 600;
   font-family: 'Roboto Mono', monospace;
 }
@@ -743,7 +753,7 @@ a:hover {
 
 .about-subtitle {
   font-weight: 800; 
-  font-size: 20px; 
+  font-size: 24px; 
 }
 
 .about-mf .col-md-6 .lead {
@@ -872,8 +882,8 @@ a:hover {
 }
 
 .highlight {
-  text-shadow:  0 0 5px #AD3A28; 
-  color: #FFE5D9;  
+  text-shadow:  0 0 5px #6279B8; 
+  color: #6279B8;  
 }
 
 
@@ -989,11 +999,12 @@ a:hover {
   float: right;
 }
 .work-content .w-like a {
-  color: #AD3A28;
+  color: #6279B8;
 }
 
 .work-content .w-like a:hover {
-  color: #bb9893
+  transition: 900ms;
+  color: #8e9cc2; 
 } 
 .work-content .w-like .num-like {
   font-size: 0.7rem;
