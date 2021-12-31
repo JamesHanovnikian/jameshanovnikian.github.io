@@ -92,17 +92,17 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #6279B8;
 }
 
-.overlay-mf {
+.overlay-mf { 
   position: absolute;
   top: 0;
   left: 0px;
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .paralax-mf {
@@ -151,7 +151,8 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 3px; 
+  letter-spacing: 3px;
+  font-family: 'Nunito' 
 }
 
 .subtitle-a {
@@ -687,8 +688,8 @@ a:hover {
   }
 }
 .hero .hero-subtitle {
-  font-weight: 600;
-  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif; 
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
@@ -1134,8 +1135,9 @@ a:hover {
 # Contact
 --------------------------------------------------------------*/
 
-
-
+button {
+  background-color: #6279B8;
+}
 
 
 .footer-paralax {
@@ -1243,6 +1245,7 @@ a:hover {
 }
 .card-blog .card-body {
   position: relative;
+  font-family: Nunito; 
 }
 .card-blog .card-category-box {
   position: absolute;
@@ -1272,6 +1275,7 @@ a:hover {
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: 0.6rem;
+  text-align: center;
 }
 .card-blog .card-description {
   color: #4e4e4e;
