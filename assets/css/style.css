@@ -249,6 +249,10 @@ a:hover {
   margin-right: 5px;
 }
 
+.list-ico li {
+  text-align: center; 
+}
+
 /*------/ Ico Circle /------*/
 .ico-circle {
   height: 100px;
