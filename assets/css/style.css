@@ -1001,7 +1001,6 @@ a:hover {
 }
 .work-content .w-more {
   color: #4e4e4e;
-  font-size: 1.2rem;
 }
 .work-content .w-more .w-ctegory {
   color: #0078ff;
@@ -1113,9 +1112,18 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
+
+.testimonial-box {
+  font-family: 'Nunito', 'sans-serif'; 
+  font-weight: 200;
+}
+
+
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
+    font-size: 2rem; 
+    font-weight: 200;
   }
 }
 @media (min-width: 992px) {
@@ -1255,9 +1263,13 @@ button {
     margin-bottom: 3rem;
   }
 }
+
+#blog {
+  font-family: 'Nunito', sans-serif; 
+}
 .card-blog .card-body {
   position: relative;
-  font-family: Nunito; 
+   
 }
 .card-blog .card-category-box {
   position: absolute;
