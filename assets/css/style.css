@@ -681,7 +681,9 @@ a:hover {
   text-shadow:  0 0 3px #6279B8; 
 }
 
-
+.about-mf a {
+  color: #6279B8; 
+}
 
 .hero .hero-title {
   color: #fff;
@@ -1122,8 +1124,8 @@ a:hover {
 @media (min-width: 768px) {
   .testimonial-box .description {
     padding: 0 5rem;
-    font-size: 2rem; 
-    font-weight: 200;
+    font-size: 38px;  
+    font-weight: 100;
   }
 }
 @media (min-width: 992px) {
