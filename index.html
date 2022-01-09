@@ -77,7 +77,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/bgimage2.jpg)">
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/meteora.jpg)">
     <div class="overlay-itro"></div>
     <div class="hero-content display-table">
       <div class="table-cell">
@@ -131,7 +131,45 @@
       </div>
     </section><!-- End About Section -->
 
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/camping.jpg)">
+  
+
+
+   
+   <!--  Education Section  -->
+  <div id="education" class="bg-image" data-scrollview="true">
+    <div class="content-bg" style="background-image: url(assets/img/meteora.jpg)">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <!-- Actualize Information -->
+            <div class="col-6 edu-acc text-center">
+                <img class= "banner-img" src="assets/img/actualize-logo.png" alt="Actualize">
+                <span class="actualize-font"> ACTUALIZE </span>
+              <div class="education-title">
+                Certificate in Full Stack <br> Web Development
+              </div>
+            </div>
+            <!-- Iowa Information -->
+            <div class="col-6 text-center">
+              <div class="education-logo">
+                <img class= "banner-img" src="assets/img/iowa-logo-2.png" alt="University of Iowa"> <span class="iowa-font"> University <br>  of Iowa 
+                   </span>
+              </div>
+              <div class="education-title">
+                B.A in History
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div> 
+  </div>
+   
+   
+   
+    <!-- <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/camping.jpg)">
       <div class="overlay-mf"></div>
       <div class="container">
         <div class="row">
@@ -147,10 +185,10 @@
           
           
           </div> 
-          </div>
         </div>
       </div>
-    </div><!-- End Testimonials Section -->
+      </div>
+    </div>End Testimonials Section -->
     
   
 
@@ -181,14 +219,14 @@
                     <h2 class="w-title">Blade Spots</h2>
                     <div class="w-more">
                       A web application where users can share/search for skate spots in their area and filter based on different categories and location. Features a map page where skate spots are pinned utilizing the Mapox API. I had an idea for an app like this almost a decade ago as an avid skater and I had a lot of fun bringing it to life.  <br> <br> 
-                      I used Ruby on Rails and PostgreSQL to build out the back-end infrastructure and Vue.js on the front end, along with HTML, CSS and Bootstrap 5. 
+                      I used Ruby on Rails and PostgreSQL to build out the back-end infrastructure and Vue.js on the front end, along with HTML, CSS and Bootstrap. 
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
                       <div>
-                        <a href="https://github.com/JamesHanovnikian/blade-spots-app"> Code </a> |
-                        <a href="portfolio-details.html"> Live Site </a> 
+                        <a href="https://github.com/JamesHanovnikian/blade-spots-app"> <i class="fab fa-github"></i> </a> |
+                        <a href="portfolio-details.html"> <i class="fas fa-external-link-alt"></i></a> 
                       </div>
                     </div>
                   </div>
@@ -208,14 +246,15 @@
                   <div class="col-sm-8">
                     <h2 class="w-title"> JavaScript Framework Watcher </h2>
                     <div class="w-more">
-                      An interactive dashboard that displays information about popular JavaScript frameworks like Vue.js, Svelte, React, & Ember. Data about the stars, watchers, and forks on each repository is taken from the Github API and displayed using chart.js. Built using JavaScript. 
+                      An interactive dashboard that displays the popularity of JavaScript frameworks (React, Angular, Vue.js etc.) by taking data about stars, watchers, and forks on their respective Github repos. Built with vanilla JavaScript, using the Github API and chart.js. 
+                    
                     </div>
                   </div>
                   <div class="col-sm-4">
                     <div class="w-like">
                       <div>
-                        <a href="https://github.com/JamesHanovnikian/js-framework-watcher"> Code </a> |
-                        <a href="https://js-framework-dashboard.netlify.app/"> Live Site </a> 
+                        <a href="https://github.com/JamesHanovnikian/js-framework-watcher">  <i class="fab fa-github"></i></a>|
+                        <a href="https://js-framework-dashboard.netlify.app/"> <i class="fas fa-external-link-alt"></i> </a> 
                       </div>
                     </div>
                   </div>
@@ -228,32 +267,6 @@
     </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/camping.jpg)">
-      <div class="overlay-mf"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="testimonial-box">
-                    <div class="content-test">
-                      <p class="description lead">
-                        Hello
-                      </p>
-                      <p> </p>
-                    </div>
-                  </div>
-                <!-- End testimonial item -->
-              
-          
-
-            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-          </div>
-        </div>
-      </div>
-    </div><!-- End Testimonials Section -->
-
    <!-- ======= Blog Section ======= -->
    <section id="blog" class="blog-mf sect-pt4 route">
     <div class="container">
@@ -264,7 +277,7 @@
               Hobbies
             </h3>
             <p class="subtitle-a">
-              Some things I enjoy doing in my free time...
+              Where you can find me outside of work
             </p>
             <div class="line-mf"></div>
           </div>
@@ -279,7 +292,7 @@
             <div class="card-body">
               <h3 class="card-title"><a href="blog-single.html">Camping </a></h3>
               <p class="card-description">
-               This is something I wish I found more time for, but I absolutely love taking weekend camping trips when I can. Being surrounded by beatiful nature and testing myself without modern day comforts is where I like to be. 
+               This is something I wish I found more time for, but I absolutely love taking weekend camping trips when I can. Being surrounded by beautiful nature and testing myself without modern day comforts is where I like to be. 
                 
               </p>
             </div>

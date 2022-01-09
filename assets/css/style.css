@@ -52,7 +52,7 @@ a:hover {
 }
 
 .box-shadow, .card-blog, .work-box, .service-box, .paralax-mf {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.9);
 }
 
 .box-shadow-a, .button:hover {
@@ -79,11 +79,12 @@ a:hover {
   overflow: hidden;
 }
 
-.bg-image {
+.content-bg {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  
 }
 @media (max-width: 1024px) {
   .bg-image {
@@ -96,6 +97,15 @@ a:hover {
 
 }
 
+.overlay {
+  top: 0; 
+  left: 0px; 
+  padding: 9; 
+  height: 100%; 
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.6)
+}
+
 .overlay-mf { 
   position: absolute;
   top: 0;
@@ -103,7 +113,6 @@ a:hover {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .95;
 }
 
 .paralax-mf {
@@ -947,6 +956,55 @@ a:hover {
 }
 .service-box .s-description {
   color: #4e4e4e;
+}
+
+
+
+/*  Education  */
+
+
+.row {
+  display: flex; 
+}
+
+.content .has-bg {
+  padding-bottom: 60px; 
+  overflow: hidden; 
+  position: relative; 
+}
+
+.row-education {
+  display: flex; 
+}
+
+.actualize-font {
+  font-size: 2.9rem;
+  color: #fff; 
+}
+
+
+#education .row {
+  padding: 75px;
+  
+}
+.iowa-font {
+  font-size: 2.3rem;
+  color: #fff;
+}
+.banner-img {
+  max-width: 80px; 
+  max-height: 40px;
+  margin-bottom: 2rem; 
+}
+
+
+.edu-acc {
+  border-right: 2px solid #fff; 
+}
+
+
+.education-title {
+  color: #fff; 
 }
 
 /*--------------------------------------------------------------
