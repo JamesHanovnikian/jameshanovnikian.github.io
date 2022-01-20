@@ -93,7 +93,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #6279B8;
 
 }
 
@@ -103,7 +103,7 @@ a:hover {
   padding: 9; 
   height: 100%; 
   width: 100%;
-  background-color:rgba(0, 0, 0, 0.6)
+  background-color: #6279B8
 }
 
 .overlay-mf { 
@@ -979,6 +979,7 @@ a:hover {
 
 .actualize-font {
   font-size: 2.9rem;
+  letter-spacing: 6.5px;
   color: #fff; 
 }
 
@@ -999,7 +1000,7 @@ a:hover {
 
 
 .edu-acc {
-  border-right: 2px solid #fff; 
+  border-right: 2px solid rgb(92, 92, 92, 0.5); 
 }
 
 
@@ -1368,12 +1369,15 @@ button {
   margin-bottom: 0;
 }
 .card-blog .card-title {
-  font-size: 1.3rem;
+  font-size: 1.75rem;
   margin-top: 0.6rem;
+  margin-bottom: 1.3rem;
   text-align: center;
 }
 .card-blog .card-description {
   color: #4e4e4e;
+  font-size: 1.15rem;
+  font-weight: 200; 
 }
 .card-blog .post-author {
   display: inline-block;
