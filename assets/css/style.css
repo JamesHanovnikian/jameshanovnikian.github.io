@@ -81,6 +81,7 @@ a:hover {
 
 .content-bg {
   background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #6279B8, #f4f4); 
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -503,8 +504,7 @@ a:hover {
 
 
 .navbar li {
-  position: relative;
-  text-transform: uppercase; 
+  position: relative; 
 }
 
 
@@ -667,11 +667,25 @@ a:hover {
 }
 
 .hero .hero-content .btn {
-  background-color: #6279B8
+    background-color: #E55934;
+  display:inline-block;
+   padding:0.3em 1.2em;
+   margin:0 0.3em 0.3em 0;
+   border-radius:2em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Nunito',sans-serif;
+   font-weight:300;
+   text-align:center;
+  letter-spacing: 1px;
+   transition: all 0.2s;  
+    color: #fff; 
+
 }
 
 .hero .hero-content .btn:hover {
-  background-color: #6679af; 
+  background-color: #e47f63; 
+  transition: 500ms;   
 }
 
 .hero .overlay-itro {
@@ -689,7 +703,7 @@ a:hover {
   /* color: #FFE5D9; 
   background-color: #0078ff; 
   box-shadow:  */
-  text-shadow:  0 0 3px #6279B8; 
+  text-shadow:  0 0 3px #E55934; 
 }
 
 .about-mf a {
@@ -698,11 +712,10 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-family:'Kanit', sans-serif; 
-  font-size: 1.1rem;
-  letter-spacing: 2px; 
-  text-transform: uppercase; 
+  letter-spacing: 5px; 
+  /* text-transform: uppercase;  */
 
 
   
@@ -1227,9 +1240,6 @@ a:hover {
 # Contact
 --------------------------------------------------------------*/
 
-button {
-  background-color: #6279B8;
-}
 
 
 .footer-paralax {
