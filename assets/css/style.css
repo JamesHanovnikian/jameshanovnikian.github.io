@@ -79,14 +79,19 @@ a:hover {
   overflow: hidden;
 }
 
+.bg-image {
+  background-image: linear-gradient(to bottom right, rgba(98, 121, 186, .6) ,rgba(51, 51, 51, 0.9)); 
+}
+
 .content-bg {
   background-repeat: no-repeat;
-  background-image: linear-gradient(to right, #6279B8, #f4f4); 
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   
 }
+
+
 @media (max-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
@@ -703,7 +708,17 @@ a:hover {
   /* color: #FFE5D9; 
   background-color: #0078ff; 
   box-shadow:  */
-  text-shadow:  0 0 5px #E55934; 
+  text-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #E55934,
+  0 0 60px #E55934,
+  0 0 92px #E55934,
+  0 0 102px #E55934
+}
+
+.sign-border {
+  border: 2px solid grey; 
 }
 
 .about-mf a {
@@ -719,6 +734,8 @@ a:hover {
 
   
 }
+
+
 @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
@@ -990,11 +1007,20 @@ a:hover {
 }
 
 .actualize-font {
+  font-family: 'Maven Pro', sans-serif;
   font-size: 2.9rem;
-  letter-spacing: 6.5px;
+  letter-spacing: 14px;
   color: #fff; 
+  font-weight: lighter; 
 }
 
+@media (max-width: 1000px) {
+  .edu-acc {
+    border-bottom: 2px solid rgb(92, 92, 92, 0.5); 
+    border-right: none; 
+    margin-bottom: 50px; 
+  }
+}
 
 #education .row {
   padding: 75px;
@@ -1004,11 +1030,22 @@ a:hover {
   font-size: 2.3rem;
   color: #fff;
 }
-.banner-img {
-  max-width: 80px; 
-  max-height: 40px;
+
+.iowa-img {
+  width: 240px;  
+  max-height: 100px;
   margin-bottom: 2rem; 
 }
+
+.act-img {
+  max-width: 100px; 
+  max-height: 40px;
+  margin-bottom: 2rem; 
+  padding-right: 10px; 
+}
+
+
+
 
 
 .edu-acc {
@@ -1018,7 +1055,13 @@ a:hover {
 
 .education-title {
   color: #fff; 
+  font-family: Nunito; 
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Counter
