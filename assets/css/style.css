@@ -79,8 +79,14 @@ a:hover {
   overflow: hidden;
 }
 
+
+
 .bg-image {
-  background-image: linear-gradient(to bottom right, rgba(98, 121, 186, .6) ,rgba(51, 51, 51, 0.9)); 
+  /* background-image: linear-gradient(to bottom right, rgba(98, 121, 186, .6) ,rgba(51, 51, 51, 0.9));  */
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-position: bottom; 
 }
 
 .content-bg {
@@ -109,7 +115,7 @@ a:hover {
   padding: 9; 
   height: 100%; 
   width: 100%;
-  background-color: #6279B8
+  background-color: rgba(0, 0, 0, 0.7); 
 }
 
 .overlay-mf { 
@@ -709,16 +715,15 @@ a:hover {
   background-color: #0078ff; 
   box-shadow:  */
   text-shadow: 0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,
-  0 0 42px #E55934,
-  0 0 60px #E55934,
-  0 0 92px #E55934,
-  0 0 102px #E55934
+  
 }
 
 .sign-border {
   border: 2px solid grey; 
+  box-shadow: 0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  
+  border-radius: 2rem; 
 }
 
 .about-mf a {
@@ -866,26 +871,29 @@ a:hover {
 } */
 
 
-.hobbies img {
-  border-radius: 3%; 
+#hobbies img {
+  
 }
 
-.hobbies .title{
+#hobbies .title{
   text-align: center; 
 }
-.hobbies .title h2  {
+#hobbies .title h2  {
   font-size: 20px; 
   font-weight: 600; 
 }
 
-.hobbies .title p {
+#hobbies .title p {
   font-size: 14px; 
+
 }
 
 
-.hobbies {
+#hobbies {
   font-family: 'Nunito', sans-serif;
 }
+
+
 .hobbies .box {
   display: flex; 
   width: 100%; 
@@ -946,6 +954,13 @@ a:hover {
 }
 
 
+#contact i{
+
+    padding-right: 6px; 
+  
+}
+
+
 
 
 
@@ -992,9 +1007,7 @@ a:hover {
 /*  Education  */
 
 
-.row {
-  display: flex; 
-}
+
 
 .content .has-bg {
   padding-bottom: 60px; 
@@ -1002,9 +1015,7 @@ a:hover {
   position: relative; 
 }
 
-.row-education {
-  display: flex; 
-}
+
 
 .actualize-font {
   font-family: 'Maven Pro', sans-serif;
@@ -1022,10 +1033,32 @@ a:hover {
   }
 }
 
-#education .row {
-  padding: 75px;
+#education {
+  box-sizing: border-box; 
+  background-image: linear-gradient(#6279B8, rgb(78, 76, 85));  
   
 }
+
+
+
+
+#education p {
+  font-family: 'Nunito'; 
+  color: rgb(199, 199, 199); 
+}
+
+
+
+#education .row {
+  padding: 75px;
+  display: flex;
+  text-align: center; 
+}
+
+#education .col-6 {
+  
+}
+
 .iowa-font {
   font-size: 2.3rem;
   color: #fff;
@@ -1302,7 +1335,29 @@ a:hover {
   }
 }
 
+#contact .contact-grid  {
+  display: grid; 
+  font-family: 'Nunito'; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
 
+#contact .icon-text {
+  font-size: 22px; 
+}
+
+
+#contact .contact-title {
+  grid-row-start: 1; 
+  grid-row-end: 1; 
+  grid-column-start: 1; 
+  grid-column-end: 5; 
+  justify-self: center;
+}
+
+#contact .copyright {
+
+  justify-self: center;
+}
 
 rgb(66, 56, 56)
 @-webkit-keyframes animate-loading {
