@@ -23,7 +23,7 @@ h6 {
 }
 
 a {
-  color: #1e1e1e;
+  color: #6279B8;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -86,7 +86,7 @@ a:hover {
   background-repeat: no-repeat; 
   background-attachment: fixed; 
   background-size: cover; 
-  background-position: bottom; 
+  background-position: center center; 
 }
 
 .content-bg {
@@ -710,6 +710,15 @@ a:hover {
   opacity: 0.9;
 }
 
+.overlay-itro {
+  background-color: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  left: 0px;
+  padding: 0;
+  opacity: 0.8;
+}
+
+
 .hero-subtitle .typed {
   /* color: #FFE5D9; 
   background-color: #0078ff; 
@@ -752,7 +761,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   .hero .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 3.0rem;
   }
 }
 .hero .text-slider-items {
@@ -957,7 +966,11 @@ a:hover {
 #contact i{
 
     padding-right: 6px; 
-  
+    color: #fff; 
+}
+
+#contact h2 {
+  color: #fff; 
 }
 
 
@@ -1007,6 +1020,27 @@ a:hover {
 /*  Education  */
 
 
+#education .edu-container {
+  display: grid; 
+  padding: 45px; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+#education .actualize-info {
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+  justify-self: center;
+}
+
+#education .iowa-info {
+  grid-column-start: 3; 
+  grid-column-end: 5; 
+  justify-self: center;
+}
+
+#education p {
+  text-align: center;
+}
 
 
 .content .has-bg {
@@ -1019,10 +1053,11 @@ a:hover {
 
 .actualize-font {
   font-family: 'Maven Pro', sans-serif;
-  font-size: 2.9rem;
+  font-size: 3.1rem;
   letter-spacing: 14px;
   color: #fff; 
   font-weight: lighter; 
+  padding-left: 5px; 
 }
 
 @media (max-width: 1000px) {
@@ -1035,10 +1070,19 @@ a:hover {
 
 #education {
   box-sizing: border-box; 
-  background-image: linear-gradient(#6279B8, rgb(78, 76, 85));  
+  background-image: linear-gradient(to right, #6279B8, rgb(78, 76, 85));  
   
 }
 
+
+#divider {
+  box-sizing: border-box; 
+  background-image: linear-gradient(to right, rgb(78, 76, 85), #6279B8);  
+}
+
+#divider .container {
+  padding: 130px; 
+}
 
 
 
@@ -1067,7 +1111,7 @@ a:hover {
 .iowa-img {
   width: 240px;  
   max-height: 100px;
-  margin-bottom: 2rem; 
+  margin-bottom: 1.4rem; 
 }
 
 .act-img {
@@ -1335,14 +1379,21 @@ a:hover {
   }
 }
 
+#contact {
+  background-image: linear-gradient(to right, #6279B8, rgb(78, 76, 85));  
+}
 #contact .contact-grid  {
   display: grid; 
   font-family: 'Nunito'; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  color: #fff; 
+  padding: 4rem; 
+  row-gap: 2.3rem;
 }
 
 #contact .icon-text {
   font-size: 22px; 
+  color: #fff;
 }
 
 
@@ -1355,9 +1406,33 @@ a:hover {
 }
 
 #contact .copyright {
-
+  grid-column-start: 1; 
+  grid-column-end: 5; 
   justify-self: center;
+  text-align: center;
+  font-size: 18px; 
 }
+
+#contact .github-link {
+  color: #fff; 
+  justify-self: center; 
+}
+
+#contact .linkedin {
+  color: #fff; 
+  justify-self: center; 
+}
+
+#contact .home-link {
+  color: #fff; 
+  justify-self: center; 
+}
+
+#contact .email {
+  color: #fff; 
+  justify-self: center; 
+}
+
 
 rgb(66, 56, 56)
 @-webkit-keyframes animate-loading {
