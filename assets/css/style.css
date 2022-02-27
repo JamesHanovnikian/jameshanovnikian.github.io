@@ -486,12 +486,15 @@ a:hover {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 70px;
+  max-width: 200px; 
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -680,17 +683,17 @@ a:hover {
 .hero .hero-content .btn {
     background-color: #E55934;
   display:inline-block;
-   padding:0.3em 1.2em;
-   margin:0 0.3em 0.3em 0;
-   border-radius:2em;
-   box-sizing: border-box;
-   text-decoration:none;
-   font-family:'Nunito',sans-serif;
-   font-weight:300;
-   text-align:center;
+  width: 10%; 
+  padding: 0.3em 8em;
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Nunito',sans-serif;
+  font-weight:300;
+  text-align:center;
   letter-spacing: 1px;
-   transition: all 0.2s;  
-    color: #fff; 
+  transition: all 0.2s;  
+  color: #fff; 
 
 }
 
@@ -725,7 +728,12 @@ a:hover {
   box-shadow:  */
   text-shadow: 0 0 7px #fff,
   
+
 }
+
+
+
+
 
 .sign-border {
   border: 2px solid grey; 
@@ -742,7 +750,7 @@ a:hover {
 .hero .hero-title {
   color: #fff;
   font-family:'Kanit', sans-serif; 
-  letter-spacing: 5px; 
+  letter-spacing: 9px; 
   /* text-transform: uppercase;  */
 
 
