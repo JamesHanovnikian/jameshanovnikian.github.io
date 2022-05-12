@@ -682,7 +682,7 @@ a:hover {
 
 .hero .hero-content .btn {
     background-color: #E55934;
-  display:inline-block;
+
   width: 10%; 
   padding: 0.3em 8em;
   margin:0 0.3em 0.3em 0;
@@ -690,8 +690,6 @@ a:hover {
   text-decoration:none;
   font-family:'Nunito',sans-serif;
   font-weight:300;
-  text-align:center;
-  letter-spacing: 1px;
   transition: all 0.2s;  
   color: #fff; 
 
@@ -733,13 +731,25 @@ a:hover {
 
 
 
+.quote-section {
+  color: #FFF; 
+  text-align: center;
+  letter-spacing: 4px;
+  font-size: 1.75rem;
+  font-family: 'Nunito'; 
+}
+
+.author {
+  color: #FFF;
+  text-align: center;  
+}
+
 
 
 .sign-border {
   border: 2px solid grey; 
   box-shadow: 0 0 .2rem #fff,
-  0 0 .2rem #fff,
-  
+  0 0 .2rem #fff; 
   border-radius: 2rem; 
 }
 
@@ -1089,7 +1099,7 @@ a:hover {
 }
 
 #divider .container {
-  padding: 130px; 
+  padding: 75px; 
 }
 
 
