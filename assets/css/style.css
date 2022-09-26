@@ -837,8 +837,6 @@ a:hover {
   padding-top: 4rem;
 }
 
-
-
 .about-mf .about-img {
   margin-bottom: 2rem;
   
@@ -860,11 +858,6 @@ a:hover {
   font-size: 24px; 
 }
 
-#about-image-container {
-  display: flex; 
-  justify-content: space-around; 
-}
-
 .about-mf .col-md-6 .lead {
   font-size: 17px; 
 }
@@ -884,15 +877,10 @@ a:hover {
 
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  
+  
 }
-@media (min-width: 767px) {
-  .about-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
 
-  }
-}
 
 
 
@@ -1288,6 +1276,39 @@ a:hover {
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0078ff;
+}
+
+@media (max-width: 780px) {
+  #about {
+    font-size: .9rem; 
+    
+  }
+ 
+}
+
+@media (max-width: 780px) {
+  #flex-container {
+    flex-direction: column;
+  }
+  #first {
+    order: 2; 
+    padding-left: 0; 
+    padding-right: 0; 
+  }
+  .about-img {
+    order: 1; 
+    width: 50%;
+    margin-left: auto; 
+    text-align: center; 
+    margin-right: auto; 
+  }
+  .about-img img {
+    max-height: 250px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    width: 50%;
+  }
 }
 
 @media (max-width: 1054px) {
