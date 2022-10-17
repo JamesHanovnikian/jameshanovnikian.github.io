@@ -770,6 +770,7 @@ a:hover {
   color: #fff;
   font-family:'Kanit', sans-serif; 
   letter-spacing: 9px; 
+  padding-bottom: 40px; 
 }
 
 
@@ -780,7 +781,8 @@ a:hover {
 }
 .hero .hero-subtitle {
   font-weight: 400;
-  font-size: .50rem; 
+  font-size: .2rem; 
+  color: #686767; 
   font-family: 'Nunito', sans-serif; 
   padding-bottom: 75px; 
 }
@@ -849,7 +851,8 @@ a:hover {
   padding-top: 4rem;
   padding-bottom: 4rem;
   padding: 1.5rem; 
-  font-family: 'Nunito', sans-serif;
+  font-size: 0.5rem; 
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -1257,6 +1260,7 @@ a:hover {
   font-size: 4.0 rem;
   color: #4e4e4e;
   float: right;
+  font-family: 'Montserrat'; 
 }
 .work-content .w-like a {
   color: #6279B8;
@@ -1624,8 +1628,8 @@ rgb(66, 56, 56)
 }
 .card-blog .card-description {
   color: #4e4e4e;
-  font-size: 1.15rem;
-  font-weight: 200; 
+  font-weight: 200;
+  font-family: 'Montserrat'; 
 }
 .card-blog .post-author {
   display: inline-block;
