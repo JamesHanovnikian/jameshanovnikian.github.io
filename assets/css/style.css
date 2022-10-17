@@ -676,10 +676,14 @@ a:hover {
   position: relative;
   color: #fff;
 }
+
+
 .hero .hero-content {
   text-align: center;
   position: absolute;
 }
+
+
 
 .hero .hero-content .btn {
    
@@ -687,6 +691,7 @@ a:hover {
   display: inline-block; 
   text-decoration: none; 
   border: 4px solid #6279B8; 
+  padding-top: 50px; 
   font-family:'Nunito',sans-serif;
   font-weight:300;
   padding: 0.25em 1em; 
@@ -699,7 +704,8 @@ a:hover {
 }
 
 .hero .hero-content .btn:hover {
-  background-color: #e47f63; 
+  background-color: #6279B8; 
+  color: #fff; 
   transition: 500ms;   
 }
 
@@ -733,6 +739,7 @@ a:hover {
 
 
 
+
 .quote-section {
   color: #FFF; 
   text-align: center;
@@ -763,14 +770,6 @@ a:hover {
   color: #fff;
   font-family:'Kanit', sans-serif; 
   letter-spacing: 9px; 
-  /* text-transform: uppercase;  */
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 15px #fff,
-    0 0 45px #6279B8,
-  box-shadow: 
-  
 }
 
 
@@ -781,9 +780,30 @@ a:hover {
 }
 .hero .hero-subtitle {
   font-weight: 400;
-  font-size: .60rem; 
+  font-size: .50rem; 
   font-family: 'Nunito', sans-serif; 
+  padding-bottom: 75px; 
 }
+
+@media (max-width: 767px) {
+  .hero .hero-title {
+    font-size: 3.5rem; 
+  }
+}
+
+
+@media (max-width: 767px) {
+  #header {
+    display: none; 
+  }
+}
+
+@media (max-width: 767px) {
+  .hero .hero-subtitle {
+    font-size: 1.4rem; 
+  }
+}
+
 @media (min-width: 768px) {
   .hero .hero-subtitle {
     font-size: 2.0rem;
@@ -1331,8 +1351,6 @@ a:hover {
 @media (max-width: 1054px) {
   #education {
     
-  padding-left: 2rem; 
-  padding-right: 2rem; 
   }
 }
 
