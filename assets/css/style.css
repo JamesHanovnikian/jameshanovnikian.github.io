@@ -1491,10 +1491,38 @@ a:hover {
   }
 }
 
-#contact {
-  background-image: linear-gradient(to right, #6279B8, rgb(78, 76, 85));  
+@media (max-width: 765px) {
+  #contact .contact-grid {
+    grid-template-columns: 4fr; 
+    
+  }
 }
-#contact .contact-grid  {
+
+
+
+#contact {
+  background-image: linear-gradient(to right, #6279B8, rgb(78, 76, 85)); 
+  
+}
+
+
+#contact .contact-grid {
+  display: flex; 
+  justify-content: space-between;
+  font-family: 'Nunito'; 
+  color: #fff;
+  font-size: 1.2rem; 
+  padding: 100px 0; 
+  align-items: center; 
+}
+
+#contact .copyright {
+  text-align: center; 
+  padding-bottom: 20px; 
+  color: #fff; 
+}
+
+/* #contact .contact-grid  {
   display: grid; 
   font-family: 'Nunito'; 
   grid-template-columns: 1fr 1fr 1fr 1fr; 
@@ -1556,7 +1584,7 @@ a:hover {
   justify-self: center; 
   grid-column-start: 3; 
   grid-column-end: 5; 
-}
+} */
 
 
 
