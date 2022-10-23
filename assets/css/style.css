@@ -782,8 +782,8 @@ a:hover {
 .hero .hero-subtitle {
   font-weight: 400;
   font-size: .2rem; 
-  color: #686767; 
-  font-family: 'Nunito', sans-serif; 
+  color: rgba(178, 183, 194, 0.75); 
+  font-family: 'Montserrat', sans-serif; 
   padding-bottom: 75px; 
 }
 
@@ -1491,11 +1491,18 @@ a:hover {
   }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 960px) {
   #contact .contact-grid {
-    grid-template-columns: 4fr; 
-    
+    flex-direction: column; 
+    align-content: space-around; 
   }
+  #contact .contact-grid hr {
+    width: 25%;  
+    height: 2px; 
+    color: rgba(209, 214, 224, 0.4);  
+  }
+  
+  
 }
 
 
