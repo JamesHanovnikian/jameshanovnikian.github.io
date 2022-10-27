@@ -1495,14 +1495,17 @@ a:hover {
   #contact .contact-grid {
     flex-direction: column; 
     align-content: space-around; 
+    
   }
   #contact .contact-grid hr {
     width: 25%;  
     height: 2px; 
     color: rgba(209, 214, 224, 0.4);  
+
   }
-  
-  
+  #contact .contact-grid .icon-text {
+    font-size: 1.8rem; 
+  }
 }
 
 
@@ -1527,6 +1530,10 @@ a:hover {
   text-align: center; 
   padding-bottom: 20px; 
   color: #fff; 
+}
+
+#contact .contact-grid .icon-text {
+  font-size: 1.3rem;
 }
 
 /* #contact .contact-grid  {
